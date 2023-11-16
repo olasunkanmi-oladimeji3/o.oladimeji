@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-grey{
+    background-color: #918b8b;
+}
+.container{
+    padding: 0.5% 13%;
+
+}
+.navbar{
+    display: inline-flex;
+}
+.nav-brand{
+    height: 40px;
+    width: 90px;
+}
+
+.menu{
+    display:flex;
+    list-style: none;
+    justify-content: right;
+    
+}
+
+.menu .nav-List{
+    padding: 14px 16px;
+}
+.nav-link{
+    font-size: 18;
+    color: black;
+    text-decoration: none;
+}
+.nav-List:hover .nav-link:hover{
+    
+    color: white;
+    text-decoration: underline;
+}
+
+.bg-img{
+    background-image: url(bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    
+
+}
+
+.bg-img h1{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.form-card{
+    width: 300px;
+    height: 200px;
+    border: 5px solid #0b0b0b;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: #0b0b0b;
+}
+
+.form-card h3{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.form-span{
+    margin-top: 5px; 
+
+}
+
+label{
+    margin: 7px 8px;
+}
+
+.btn-submit{
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 100%;
+
+}
+
+#knit{
+    font-size: 50px;
+    text-align: center;
+}
